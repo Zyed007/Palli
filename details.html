@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Update data</title>
+        <link rel="stylesheet" type="text/css" href="css/reg.css">
+    </head>
+    <body>
+    <div class="container">
+    <h1 ALIGN="center">Update</h1>
+    <p ALIGN="center">Update The  Details.</p>
+        <br/><br/>
+        <form name="upd" method="post" action="prupdate.php">
+        <div class="m">    
+                    <label for="meno"><b>Membership No</b></label>
+                    <input type="text" name="meno" value="<?php echo $meno;?>" >
+                    <br>                
+                
+                    <label for="Name"><b>Name</b></label>
+                    <input type ="text" name="Name" value="<?php echo $user;?>" >
+                    <br>
+                
+                    <label for="mob"><b>Mobile No</b></label>
+                    <input type ="text" name="mob" value="<?php echo $mob;?>" >
+                    <br>
+                    <br>
+
+                    
+                    <button name="update" type="submit" class="registerbtn" value="Update">Update</button>
+                    </div>
+        </form>
+        
+    </body>
+</html>
